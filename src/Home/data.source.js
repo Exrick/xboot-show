@@ -9,7 +9,7 @@ export const Nav00DataSource = {
   Menu: {
     className: 'header0-menu',
     children: [
-      { name: 'item0', a: { children: '官网', href: 'http://xboot.exrick.cn' } },
+      { name: 'item0', a: { children: '官网', href: 'http://xb.exrick.cn' } },
       {
         name: 'item1',
         a: {
@@ -541,6 +541,10 @@ export const Footer10DataSource = {
             <span>
               <p>
                 <a href="https://github.com/Exrick/x-boot/issues" target="_blank">FAQ</a>
+              </p>
+              <br/>
+              <p>
+                <a href="https://github.com/Exrick/xboot-show" target="_blank">本站源码</a>
               </p>
               <br/>
               <p>
