@@ -1,4 +1,4 @@
-# 【XBoot宣传官网](http://xb.exrick.cn)
+# [XBoot宣传官网](http://xb.exrick.cn)
 - 地址：http://xb.exrick.cn/
 - 使用 [阿里 Ant Design Landing](https://landing.ant.design/index-cn) 编辑开发
 - 基于脚手架 [umi](https://landing.ant.design/docs/use/umi) 创建
