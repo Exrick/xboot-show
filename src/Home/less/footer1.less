@@ -1,0 +1,75 @@
+.footer1-wrapper {
+  background: @template-bg-color;
+  overflow: hidden;
+  position: relative;
+  min-height: 400px;
+  color: @template-footer-text-color;
+  .footer1 {
+    .home-page {
+      padding: 64px 24px 80px;
+    }
+    .block {
+      padding: 0 32px;
+      .logo {
+        max-width: 180px;
+      }
+      .slogan {
+        font-size: 12px;
+        margin-top: -20px;
+      }
+      >h2 {
+        margin-bottom: 24px;
+        color: @template-text-color;
+      }
+      >div {
+        line-height: 24px;
+        a {
+          color: @template-footer-text-color;
+          &:hover {
+            color: @primary-color;
+          }
+        }
+      }
+    }
+  }
+  .copyright-wrapper {
+    width: 100%;
+    border-top: 1px solid fade(@line-color, 10);
+    .home-page {
+      padding: 0 24px;
+      overflow: hidden;
+    }
+    .copyright {
+      height: 100px;
+      text-align: right;
+      line-height: 80px;
+      float: right;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer1 {
+    height: 550px;
+    >ul {
+      width: 90%;
+      margin: 20px auto 0;
+      padding: 10px 0;
+      >li {
+        width: 100%;
+        h2 {
+          margin-bottom: 10px;
+        }
+        li {
+          display: inline-block;
+          margin-right: 10px;
+        }
+      }
+    }
+    .copyright {
+      span {
+        width: 90%;
+      }
+    }
+  }
+}
