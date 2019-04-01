@@ -43,13 +43,13 @@ export const Banner00DataSource = {
   textWrapper: { className: 'banner0-text-wrapper' },
   title: {
     className: 'banner0-title jtnstd5q52-editor_css',
-    children: 'https://i.loli.net/2019/03/25/5c984c1120873.png',
+    children: 'https://i.loli.net/2019/04/01/5ca1b48e23ac4.png',
   },
   content: {
     className: 'banner0-content',
     children: (
       <span>
-        <p>一个前后端分离快速开发平台</p>
+        <p>XBoot前后端分离快速开发平台</p>
       </span>
     ),
   },
@@ -526,6 +526,7 @@ export const Footer10DataSource = {
               <p>
                 <a href="http://wpa.qq.com/msgrd?v=3&uin=1012139570&site=qq&menu=yes" target="_blank">商用授权</a>
               </p>
+              <br/>
             </span>
           ),
         },
@@ -550,6 +551,7 @@ export const Footer10DataSource = {
               <p>
                 <a href="http://wpa.qq.com/msgrd?v=3&uin=1012139570&site=qq&menu=yes" target="_blank">联系作者</a>
               </p>
+              <br/>
             </span>
           ),
         },
@@ -578,6 +580,7 @@ export const Footer10DataSource = {
               <p>
                 <a href="https://github.com/iview/iview-admin" target="_blank">iView Admin</a>
               </p>
+              <br/>
             </span>
           ),
         },
