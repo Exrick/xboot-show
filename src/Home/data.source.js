@@ -21,13 +21,21 @@ export const Nav00DataSource = {
       {
         name: 'item2',
         a: {
+          children: '开发文档',
+          href: 'https://www.kancloud.cn/exrick/xboot/content',
+          target: '_black',
+        },
+      },
+      {
+        name: 'item3',
+        a: {
           children: '获取完整版',
           href: 'http://xpay.exrick.cn/pay?xboot',
           target: '_black',
         },
       },
       {
-        name: 'item3',
+        name: 'item4',
         a: {
           children: '商用授权',
           href: 'http://wpa.qq.com/msgrd?v=3&uin=1012139570&site=qq&menu=yes',
@@ -545,10 +553,6 @@ export const Footer10DataSource = {
               </p>
               <br/>
               <p>
-                <a href="https://github.com/Exrick/xboot-show" target="_blank">本站源码</a>
-              </p>
-              <br/>
-              <p>
                 <a href="http://wpa.qq.com/msgrd?v=3&uin=1012139570&site=qq&menu=yes" target="_blank">联系作者</a>
               </p>
               <br/>
@@ -566,15 +570,15 @@ export const Footer10DataSource = {
           children: (
             <span>
               <p>
-                <a href="https://github.com/Exrick/x-boot/wiki" target="_blank">后台开发文档</a>
+                <a href="https://www.kancloud.cn/exrick/xboot/content" target="_blank">开发文档</a>
               </p>
               <br/>
               <p>
-                <a href="https://github.com/Exrick/xboot-front/wiki" target="_blank">前端开发文档</a>
+                <a href="https://github.com/Exrick/xboot-show" target="_blank">本站源码</a>
               </p>
               <br/>
               <p>
-                <a href="https://www.iviewui.com" target="_blank">iView官网</a>
+                <a href="https://www.iviewui.com" target="_blank">iView</a>
               </p>
               <br/>
               <p>
